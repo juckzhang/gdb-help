@@ -18,6 +18,8 @@ delete <b编号> : 删除某个断点
 clear : 删除所有断点
 p : 打印变量值
 set var num = xxx : 设置变量值
+display arr@len: display array for length
+util num: run line number
 finish : 结束当前函数调试
 c : 继续执行到下一个断点
 r : 重新开始调试
