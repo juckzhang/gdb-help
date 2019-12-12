@@ -1,4 +1,5 @@
 ### gdb命令使用手册
+gcc option: -ggdb3 -O0
 
 ```
 start: 开始调试
