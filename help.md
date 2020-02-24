@@ -28,4 +28,6 @@ watch 变量 : 监测变量变化时，暂停
 i watchpoints ： 查看所有监测点
 i registers : 显示寄存器信息
 catch <事件名称>(throw/catch/exec/fork/vfork/load/unload) ：发生相应事件时，暂停
+set follow-fork-mode child: bind child process
+set detach-on-fork off: bind child process
 ```
